@@ -9,11 +9,11 @@ namespace CustomMiddleWare
 {
     public class ReportMiddleware
     {
-        private readonly RequestDelegate next;
+        //private readonly RequestDelegate next;
 
         public ReportMiddleware(RequestDelegate next)
         {
-            this.next = next;
+            //this.next = next;
         }
 
         public async Task InvokeAsync(HttpContext context)
